@@ -37,7 +37,6 @@ public class HListViewActivity extends Activity{
 			 "data_6","data_7","data_8", "data_9"};
 	 
 	 private  ScrollAdapter mAdapter;
-	 private TextView item_datav1;
 
 
 	@Override
@@ -55,8 +54,7 @@ public class HListViewActivity extends Activity{
 		//添加头滑动事件 
 		mHScrollViews.add(headerScroll);
 		mListView = (ListView) findViewById(R.id.hlistview_scroll_list);
-		item_datav1= (TextView) findViewById(R.id.item_datav1);
-		for(int i = 0; i < 20; i++) {
+		for(int i = 0; i < 200; i++) {
 			data = new HashMap<String, String>();
 			data.put("title", "C区_" + i);
 			for (int j = 1; j < cols.length; j++) {
@@ -76,10 +74,9 @@ public class HListViewActivity extends Activity{
 										, R.id.item_datav6 
 										, R.id.item_datav7 
 										, R.id.item_datav8}
-				            ,mHScrollViews
-		                    ,mListView);
+		                                ,mHScrollViews
+				                        ,mListView);
 		mListView.setAdapter(mAdapter);
-
 
 	}
 	
@@ -131,18 +128,20 @@ public class HListViewActivity extends Activity{
 //
 //		@Override
 //		public View getView(final int position, View convertView, ViewGroup parent) {
-//			View v = convertView;
-//			if(v == null) {
-//				v = LayoutInflater.from(context).inflate(res, null);
+//
+//			convertView = LayoutInflater.from(context).inflate(res, null);
+//			View v= convertView;
 //				//第一次初始化的时候装进来
 //				addHViews((CHScrollView2) v.findViewById(R.id.item_chscroll_scroll));
 //				View[] views = new View[to.length];
 //				//单元格点击事件
-//				for(int i = 0; i < to.length; i++) {
+//
+//				for( int i = 0; i < to.length; i++) {
 //					View tv = v.findViewById(to[i]);
 //					tv.setOnClickListener(new View.OnClickListener() {
 //						@Override
 //						public void onClick(View v) {
+//							Log.i("ii","hhh:"+datas.get(position));
 //							Toast.makeText(HListViewActivity.this, "点击了11111111:"+datas.get(position), Toast.LENGTH_SHORT).show();
 //						}
 //					});
@@ -155,7 +154,7 @@ public class HListViewActivity extends Activity{
 //				}*/
 //				//
 //				v.setTag(views);
-//			}
+//
 //			View[] holders = (View[]) v.getTag();
 //			int len = holders.length;
 //			for(int i = 0 ; i < len; i++) {
@@ -171,11 +170,4 @@ public class HListViewActivity extends Activity{
 //		}
 //
 //	}
-//	protected View.OnLongClickListener cli=new View.OnLongClickListener() {
-//		@Override
-//		public boolean onLongClick(View v) {
-//			Toast.makeText(HListViewActivity.this, "点击了11111111:"+((TextView)v).getText(), Toast.LENGTH_SHORT).show();
-//			return true;
-//		}
-//	};
 }

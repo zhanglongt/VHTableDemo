@@ -54,10 +54,9 @@ public class ScrollAdapter extends SimpleAdapter {
 
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
-        View v = convertView;
-        if(v==null){
-            v = LayoutInflater.from(context).inflate(res, null);
-            //第一次初始化的时候装进来
+           convertView = LayoutInflater.from(context).inflate(res, null);
+           View v =convertView;
+                //第一次初始化的时候装进来
             addHViews((CHScrollView2) v.findViewById(R.id.item_chscroll_scroll));
             View[] views = new View[to.length];
             //单元格点击事件
@@ -66,14 +65,14 @@ public class ScrollAdapter extends SimpleAdapter {
                 tv.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Log.i("ii","点击了11111111:"+datas.get(position));
+                        Log.i("ii","点击了11111111:"+datas.get(position).get("title"));
                         Toast.makeText(context, "点击了11111111:"+datas.get(position), Toast.LENGTH_SHORT).show();
                     }
                 });
                 views[i] = tv;
             }
             v.setTag(views);
-        }
+
         View[] holders = (View[]) v.getTag();
         int len = holders.length;
         for(int i = 0 ; i < len; i++) {
