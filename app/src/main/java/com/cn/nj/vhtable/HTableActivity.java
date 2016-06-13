@@ -10,11 +10,13 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
 import android.widget.HorizontalScrollView;
@@ -56,14 +58,15 @@ public class HTableActivity extends Activity{
 		for(int i=0 ;i<cols.length;i++){
 			if(i!=0){
 				View linearLay = newView(R.layout.row_title_edit_view,"Title_"+i);
-				EditText et = (EditText)linearLay.findViewById(R.id.tevEditView);
+				 EditText et = (EditText)linearLay.findViewById(R.id.tevEditView);
+
 				et.setText("Date"+i);
 				
 				titleLinearLayout.addView(linearLay);
 			}
 		}
 		
-		List<Map<String, String>> datas = new ArrayList<Map<String,String>>();
+		final List<Map<String, String>> datas = new ArrayList<Map<String,String>>();
 		Map<String, String> data = null;
 		CHTableScrollView headerScroll = (CHTableScrollView) findViewById(R.id.item_scroll_title);
 		//添加头滑动事件 
@@ -102,6 +105,12 @@ public class HTableActivity extends Activity{
 		
 		BaseAdapter adapter = new ScrollAdapter2(this, datas, R.layout.row_item_edit, cols);
 		mListView.setAdapter(adapter);
+		mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+				Log.i("ii","xxx:"+datas.get(position));
+			}
+		});
 	}
 	
 	public void addHViews(final CHTableScrollView hScrollView) {
@@ -164,11 +173,9 @@ public class HTableActivity extends Activity{
 		}
 
 		@Override
-		public View getView(int position, View convertView, ViewGroup parent) {
+		public View getView(final int position, View convertView, ViewGroup parent) {
 			// TODO Auto-generated method stub
-			View v = convertView;
-			if(v == null) {
-				v = LayoutInflater.from(context).inflate(res, null);
+			View v = LayoutInflater.from(context).inflate(res, null);
 				//第一次初始化的时候装进来
 				
 				mColumnControls.put("title", (EditText)v.findViewById(R.id.item_title));
@@ -185,7 +192,13 @@ public class HTableActivity extends Activity{
 					View linearLay = newView(R.layout.row_item_edit_view,from[i]);
 					EditText td = (EditText)linearLay.findViewById(R.id.ievEditView);
 					
-					td.setOnClickListener(clickListener);
+					td.setOnClickListener(new View.OnClickListener() {
+						@Override
+						public void onClick(View v) {
+							Log.i("ii","aaaa:"+datas.get(position));
+							Toast.makeText(HTableActivity.this, "aaaa:"+datas.get(position), Toast.LENGTH_SHORT).show();
+						}
+					});
 					ll.addView(linearLay);
 					
 					views[i] = td;
@@ -194,7 +207,7 @@ public class HTableActivity extends Activity{
 				v.setTag(views);
 				
 				addHViews((CHTableScrollView)chsv);
-			}
+
 			
 			View[] holders = (View[]) v.getTag();
 			int len = holders.length;
@@ -233,22 +246,26 @@ public class HTableActivity extends Activity{
 		}
 		
 		@Override
-		public View getView(int position, View convertView, ViewGroup parent) {
-			View v = convertView;
-			if(v == null) {
-				v = LayoutInflater.from(context).inflate(res, null);
+		public View getView(final int position, View convertView, ViewGroup parent) {
+			View v = LayoutInflater.from(context).inflate(res, null);
 				//第一次初始化的时候装进来
 				addHViews((CHTableScrollView) v.findViewById(R.id.item_scroll));
 				View[] views = new View[to.length];
 				//
 				for(int i = 0; i < to.length; i++) {
 					View tv = v.findViewById(to[i]);
-					tv.setOnClickListener(clickListener);
+					tv.setOnClickListener(new View.OnClickListener() {
+						@Override
+						public void onClick(View v) {
+							Log.i("ii","sssssss:"+datas.get(position));
+							Toast.makeText(HTableActivity.this, "ssssssss:"+datas.get(position), Toast.LENGTH_SHORT).show();
+						}
+					});
 					views[i] = tv;
 				}
 				//
 				v.setTag(views);
-			}
+
 			View[] holders = (View[]) v.getTag();
 			int len = holders.length;
 			for(int i = 0 ; i < len; i++) {

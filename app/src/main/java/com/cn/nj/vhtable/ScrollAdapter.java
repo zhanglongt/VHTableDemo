@@ -54,8 +54,8 @@ public class ScrollAdapter extends SimpleAdapter {
 
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
-           convertView = LayoutInflater.from(context).inflate(res, null);
-           View v =convertView;
+           //convertView = LayoutInflater.from(context).inflate(res, null);
+           View v = LayoutInflater.from(context).inflate(res, null);
                 //第一次初始化的时候装进来
             addHViews((CHScrollView2) v.findViewById(R.id.item_chscroll_scroll));
             View[] views = new View[to.length];
@@ -78,7 +78,7 @@ public class ScrollAdapter extends SimpleAdapter {
         for(int i = 0 ; i < len; i++) {
             if (position%2==0){
                 ((TextView)holders[i]).setText(this.datas.get(position).get(from[i]).toString());
-                (holders[i]).setBackgroundColor(Color.rgb(219, 238, 244) );
+                //(holders[i]).setBackgroundColor(Color.rgb(219, 238, 244) );
             }else {
                 ((TextView)holders[i]).setText(this.datas.get(position).get(from[i]).toString());
                 (holders[i]).setBackgroundColor(Color.WHITE);

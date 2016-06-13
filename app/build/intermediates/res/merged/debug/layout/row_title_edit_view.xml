@@ -3,6 +3,7 @@
     android:layout_width="@dimen/scroll_tab_column_width"
     android:layout_height="match_parent"
     android:minHeight="50dip"
+    android:descendantFocusability="blocksDescendants"
     android:orientation="vertical" >
 
     <EditText
@@ -17,6 +18,7 @@
         android:minWidth="@dimen/scroll_tab_column_width"
         android:editable="false"
         android:enabled="false"
+        android:focusable="false"
         android:singleLine="true"
         android:textColor="#850" />
 
