@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_item_edit_view.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\layout\\row_item_edit_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hlistview.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\layout\\activity_hlistview.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_title_edit_view.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\layout\\row_title_edit_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_htable.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\layout\\activity_htable.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_item_edit.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\layout\\row_item_edit.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scroll_backup.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\layout\\scroll_backup.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_topbar.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\layout\\common_topbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_item_hlistview.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\layout\\common_item_hlistview.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_edit.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\layout\\item_edit.xml"
+    }
+]

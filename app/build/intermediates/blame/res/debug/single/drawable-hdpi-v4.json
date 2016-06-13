@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_green.9.png",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable-hdpi\\button_green.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_send.png",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable-hdpi\\btn_send.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_back_normal_icon.png",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable-hdpi\\title_back_normal_icon.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\top_bg.png",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable-hdpi\\top_bg.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_gray.9.png",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable-hdpi\\button_gray.9.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\btn_send_press.png",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable-hdpi\\btn_send_press.png"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\title_back_press_icon.png",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable-hdpi\\title_back_press_icon.png"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable\\bg_edittext.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable\\selector_btn.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\linearlayout_green_round_p.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable\\linearlayout_green_round_p.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_normal_title.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable\\bg_edittext_normal_title.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\title_back_btn.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable\\title_back_btn.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_focused.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable\\bg_edittext_focused.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_edittext_normal.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable\\bg_edittext_normal.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_radio_btn.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable\\selector_radio_btn.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\linearlayout_green_round_selector.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable\\linearlayout_green_round_selector.xml"
+    },
+    {
+        "merged": "D:\\AndroidProject\\VHTableDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\linearlayout_green_round_n.xml",
+        "source": "D:\\AndroidProject\\VHTableDemo\\app\\src\\main\\res\\drawable\\linearlayout_green_round_n.xml"
+    }
+]

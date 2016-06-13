@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="A_orange">#ffff4400</color>
+    <color name="Alpha0">#00000000</color>
+    <color name="C_white">#ffffffff</color>
+    <color name="F_black_light_4">#ff999999</color>
+    <color name="activity_background">#00000000</color>
+    <color name="articlesummary_color">#ff7e7e7e</color>
+    <color name="articletitle_color">#ff262626</color>
+    <color name="black">#ff323232</color>
+    <color name="black_gray">#ff202020</color>
+    <color name="blackgrey">#ff0a0a0a</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="color_drgable_listview_name">#ff323232</color>
+    <color name="color_text_normal">#ff8893a2</color>
+    <color name="color_text_selected">#ff01b9f0</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="dark_gray">#ff838486</color>
+    <color name="dividing_line_color">#ff9a9283</color>
+    <color name="edittext_caption_color">#ff9a9283</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="endColor">#0068e8</color>
+    <color name="explore_color">#5A89C5</color>
+    <color name="favorites_color">#5AA140</color>
+    <color name="gd_action_bar_divider_tint">#77ffffff</color>
+    <color name="gd_action_bar_tint">#ffa8c24e</color>
+    <color name="global_background">#fff5f5f5</color>
+    <color name="gray">#ffbbbbbb</color>
+    <color name="gray2">#ff606060</color>
+    <color name="green">#ff00ff00</color>
+    <color name="green_lite">#ff7db00d</color>
+    <color name="hintcolor">#00000000</color>
+    <color name="lightgoldenrodyellow">#fafad2</color>
+    <color name="money">@color/system_classic_color</color>
+    <color name="nav_selected">#ff357db4</color>
+    <color name="nav_selected1">#ff545557</color>
+    <color name="nearby_color">#F9CF90</color>
+    <color name="orange">#ffff9600</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="red">#ffee0000</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="startColor">#0091f7</color>
+    <color name="status_color">#ff7d715b</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="system_classic_color">#ffd15c53</color>
+    <color name="top_bar_menu_color">#ffa6a6a6</color>
+    <color name="top_bar_title_color">#ffd15c53</color>
+    <color name="transparent">#00000000</color>
+    <color name="umeng_fb_color_btn_normal">#ff333333</color>
+    <color name="umeng_fb_color_btn_pressed">#ff1495f7</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow_time">#ffdbae39</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="comm_padding_size">5dp</dimen>
+    <dimen name="comm_padding_size_1">1dp</dimen>
+    <dimen name="comm_padding_size_10">10dp</dimen>
+    <dimen name="comm_padding_size_11">11dp</dimen>
+    <dimen name="comm_padding_size_12">12dp</dimen>
+    <dimen name="comm_padding_size_13">13dp</dimen>
+    <dimen name="comm_padding_size_14">14dp</dimen>
+    <dimen name="comm_padding_size_15">15dp</dimen>
+    <dimen name="comm_padding_size_16">16dp</dimen>
+    <dimen name="comm_padding_size_17">17dp</dimen>
+    <dimen name="comm_padding_size_18">18dp</dimen>
+    <dimen name="comm_padding_size_19">19dp</dimen>
+    <dimen name="comm_padding_size_2">2dp</dimen>
+    <dimen name="comm_padding_size_20">20dp</dimen>
+    <dimen name="comm_padding_size_3">3dp</dimen>
+    <dimen name="comm_padding_size_4">4dp</dimen>
+    <dimen name="comm_padding_size_6">6dp</dimen>
+    <dimen name="comm_padding_size_7">7dp</dimen>
+    <dimen name="comm_padding_size_8">8dp</dimen>
+    <dimen name="comm_padding_size_9">9dp</dimen>
+    <dimen name="comm_text_size_10">10sp</dimen>
+    <dimen name="comm_text_size_11">11sp</dimen>
+    <dimen name="comm_text_size_12">12sp</dimen>
+    <dimen name="comm_text_size_13">13sp</dimen>
+    <dimen name="comm_text_size_14">14sp</dimen>
+    <dimen name="comm_text_size_15">15sp</dimen>
+    <dimen name="comm_text_size_16">16sp</dimen>
+    <dimen name="comm_text_size_17">17sp</dimen>
+    <dimen name="comm_text_size_18">18sp</dimen>
+    <dimen name="comm_text_size_19">19sp</dimen>
+    <dimen name="comm_text_size_20">20sp</dimen>
+    <dimen name="comm_text_size_21">21sp</dimen>
+    <dimen name="comm_text_size_22">22sp</dimen>
+    <dimen name="comm_text_size_23">23sp</dimen>
+    <dimen name="comm_text_size_24">24sp</dimen>
+    <dimen name="comm_text_size_25">25sp</dimen>
+    <dimen name="i_title_font_size1">22sp</dimen>
+    <dimen name="i_title_font_size2">24sp</dimen>
+    <dimen name="ihome_nav_text_size">16sp</dimen>
+    <dimen name="inews_search_hit_size">15sp</dimen>
+    <dimen name="inews_title_font_size">20sp</dimen>
+    <dimen name="scroll_tab_column_width">60dip</dimen>
+    <dimen name="scroll_tab_row_height">80dip</dimen>
+    <dimen name="scroll_tab_row_width">80dip</dimen>
+    <dimen name="scroll_tab_title_height">40dip</dimen>
+    <drawable name="list_bg_default">#FFFFFF</drawable>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">双表头表格</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="label_nav1">EditView双表头表格</string>
+    <string name="label_nav2">TextView双表头表格</string>
+    <string name="label_tab_top_left">  返回</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
